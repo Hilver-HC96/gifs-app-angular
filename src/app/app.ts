@@ -2,12 +2,6 @@ import { Component, computed, signal } from '@angular/core';
 import { Gif } from './interfaces/gif.interface';
 import { GifCard } from './components/gif-card/gif-card';
 
-@Component({
-  selector: 'app-root',
-  styleUrl: './app.css',
-  templateUrl: './app.html',
-  imports: [GifCard],
-})
 
 @Component ({
   selector: 'app-root',
