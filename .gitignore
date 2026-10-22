@@ -42,3 +42,8 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Archivos de entorno que pueden contener secretos
+.env
+.env.*
+!.env.example
